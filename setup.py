@@ -61,8 +61,8 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        "wagtail>=1.4.0",
-        "Django>=1.7.1",
+        "wagtail>=5.0",
+        "Django>=4.2",
     ],
     cmdclass={
         'sdist': sdist,
